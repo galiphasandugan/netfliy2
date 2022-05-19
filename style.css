@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    font-size: 1.3rem;
+}
+.container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    
+}
+.left{
+    background-color: aquamarine;
+    width: 33.33%;
+    padding: 1rem;
+    
+}
+.right{
+    background-color:rgb(4, 117, 192);
+    width:66.66%;
+    padding: 1rem;
+   
+}
+.nav{
+    width: 100%;
+    background-color: red;
+    padding: 4rem;
+     display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.section{
+    width:100%;
+    display: flex;
+    justify-content:flex-start ;
+    align-items:flex-start;
+    height: calc(45.8rem - 8rem);
+    text-align: center;   
+}
+.one{
+    width: 33.3%;
+    padding-left: 250px;
+    background-color: chartreuse;
+    border: 2px solid black;
+    align-items: flex-start;
+       
+} 
+.two{
+    width: 33.3%;
+    background-color: chartreuse;
+    border: 2px solid black;  
+}
+.three{
+    width: 33.3%;
+    background-color: chartreuse;
+    border: 2px solid black;   
+}
+.article{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;  
+}
+.four{
+    width: 25%;
+    padding: 1rem;
+    background-color: rgb(198, 116, 116);
+    border: 2px solid grey; 
+} 
+.five{
+    width: 50%;
+    padding: 1rem;
+    background-color: chartreuse;
+    border: 2px solid grey;
+    background-color: rgb(198, 116, 116);  
+}
+.six{
+    width: 25%;
+    padding: 1rem;
+    background-color: chartreuse;
+    border: 2px solid grey;
+    background-color: rgb(198, 116, 116);
+     
+    
+}
+.footer{
+    background-color: blueviolet;
+    width: 100%;
+    padding: 2rem;
+}
